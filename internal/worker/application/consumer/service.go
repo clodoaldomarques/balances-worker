@@ -4,10 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/clodoaldomarques/balances-api/internal/shared/domain/events"
-	"github.com/clodoaldomarques/balances-api/internal/worker/domain/daily"
-	"github.com/clodoaldomarques/balances-api/internal/worker/infra/database/mysqldb"
-	"github.com/clodoaldomarques/balances-api/internal/worker/infra/sqs"
+	"github.com/clodoaldomarques/balances-worker/internal/worker/domain/daily"
+	"github.com/clodoaldomarques/balances-worker/internal/worker/infra/database/mysqldb"
+	"github.com/clodoaldomarques/balances-worker/internal/worker/infra/sqs"
 	"github.com/clodoaldomarques/core-sdk/pkg/logger"
 )
 

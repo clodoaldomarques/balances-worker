@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/clodoaldomarques/balances-api/config"
-	"github.com/clodoaldomarques/balances-api/internal/shared/domain/events"
+	"github.com/clodoaldomarques/balances-worker/config"
+	"github.com/clodoaldomarques/balances-worker/internal/shared/domain/events"
 	"github.com/clodoaldomarques/core-sdk/pkg/logger"
 
 	"github.com/aws/aws-sdk-go-v2/aws"

@@ -3,8 +3,8 @@ package mysqldb
 import (
 	"time"
 
-	"github.com/clodoaldomarques/balances-api/internal/shared/commons"
-	"github.com/clodoaldomarques/balances-api/internal/worker/domain/daily"
+	"github.com/clodoaldomarques/balances-worker/internal/worker/domain/daily"
+	"github.com/clodoaldomarques/core-sdk/pkg/commons"
 )
 
 type Balance struct {

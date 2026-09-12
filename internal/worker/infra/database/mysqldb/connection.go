@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/clodoaldomarques/balances-api/config"
+	"github.com/clodoaldomarques/balances-worker/config"
 	"github.com/clodoaldomarques/core-sdk/pkg/logger"
 
 	_ "github.com/go-sql-driver/mysql"
